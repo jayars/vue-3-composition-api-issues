@@ -11,6 +11,11 @@
   </div>
 </template>
 <script>
+
+// copied from lesson
+// added version/style
+// updated @vue/composition-api to vue
+
 import { ref, watch, version } from "vue";
 import eventApi from "@/api/event.js";
 import usePromise from "@/composables/use-promise";
@@ -32,3 +37,9 @@ export default {
   }
 };
 </script>
+
+<style>
+#app {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+</style>

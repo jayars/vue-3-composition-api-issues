@@ -1,24 +1,7 @@
 # vue-3-composition-api-issue
 
-## Project setup
-```
-npm install
-```
+From Lesson 9: Sharing State:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+> It looks like Vue 2 with the composition API isn’t properly recognizing my Reactive References and calling `.value` like it should. I could fix this by adding `.value` manually **or by actually using Vue 3**. I tested the code with Vue 3 and sure enough, it saw the Reactive References and properly displayed the `.value`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+However, in this example using Vue 3.0.4, I still need to call `.value`
